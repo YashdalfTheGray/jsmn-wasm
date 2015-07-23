@@ -15,7 +15,7 @@ How do you engage Native American population into IT...for whatever reason.
 * emscripten
 * WebAssembly
 
-### [Angry Bots](beta.unity3d.com/jonas/AngryBots/)
+### [Angry Bots](http://beta.unity3d.com/jonas/AngryBots/)
 
 This game was created using asm.js (and also unity3d) which is just WebAssembly on steroids. 
 
@@ -25,7 +25,7 @@ WebGL is OpenGL for the web. It's open-source, royalty-free and cross-platform. 
 
 It's not for the faint of heart. 
 
-WebGL support can be looked at by going to [CanIUse](caniuse.com/webgl) or checking [browser support](get.webgl.com).
+WebGL support can be looked at by going to [CanIUse](http://www.caniuse.com/webgl) or checking [browser support](http://get.webgl.com).
 
 ### ASM.js and WebAssembly
 
@@ -37,13 +37,13 @@ Enscripten is an LLVM based tool that takes C or C++ code and turns it into the 
 
 WebAssembly is expected to be an optimized, agreed upon standards-based implementation of ASM.js
 
-Luke Wagner annouced WebAssembly on the mozilla blog and there is something up on [Github](github.com/WebAssembly). Basically, they want to deliver something that can be natively decoded and parsed and be done very quickly. 
+Luke Wagner annouced WebAssembly on the mozilla blog and there is something up on [Github](http://www.github.com/WebAssembly). Basically, they want to deliver something that can be natively decoded and parsed and be done very quickly. 
 
 If you compile asm.js "programs" into WebAssembly, the size can be reduced by about 60%. Most languages are going to be supported but for now it's only C/C++. JavaScript compilation to WebAssembly will also be supported at some point. 
 
 WebAssembly is not supposed to replace JavaScript, it is designed to complement JavaScript. It will use compiled C++ apps (binary executables) and use JavaScript as the glue. 
 
-Brenden Eich, on his [website](brendeneich.com), has a video about ECMAScript Harmony and the rise of compilers. He talks about the ES versions and the cadence of releases. People are also using transpilers and compilers to get support for newer standards.
+Brenden Eich, on his [website](http://www.brendeneich.com), has a video about ECMAScript Harmony and the rise of compilers. He talks about the ES versions and the cadence of releases. People are also using transpilers and compilers to get support for newer standards.
 
 Check out [Dead Trigger 2](http://beta.unity3d.com/jonas/DT2/) on Unity3D. It features MACHINE GUN CHICKEN SENTRIES!
 
