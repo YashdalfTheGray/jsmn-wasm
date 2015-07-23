@@ -45,7 +45,7 @@ WebAssembly is not supposed to replace JavaScript, it is designed to complement 
 
 Brenden Eich, on his [website](brendeneich.com), has a video about ECMAScript Harmony and the rise of compilers. He talks about the ES versions and the cadence of releases. People are also using transpilers and compilers to get support for newer standards.
 
-Check out DeadTrigger2 on Unity3D. It features MACHINE GUN CHICKEN SENTRIES!
+Check out [Dead Trigger 2](http://beta.unity3d.com/jonas/DT2/) on Unity3D. It features MACHINE GUN CHICKEN SENTRIES!
 
 ## Innovation vs. Impatience
 
@@ -65,7 +65,7 @@ Browser innovation is slow and JavaScript is being used for a lot more than what
 
 ## Compiling C into JavaScript
 
-1) Write something in C.
-2) Use emscripten to compile the C code into a web binary. Use `emcc file.c -o file.js` to create a node.js runnable JavaScript. Use `emcc file.c -o file.html` to create something that can be pulled up in a web browser. 
+1. Write something in C.
+2. Use emscripten to compile the C code into a web binary. Use `emcc file.c -o file.js` to create a node.js runnable JavaScript. Use `emcc file.c -o file.html` to create something that can be pulled up in a web browser. 
 
 Just like `"use strict"`, some browsers also support `"use asm"` if they support the speedier optimizations. This can be used to get to the more optimized JavaScript. 
