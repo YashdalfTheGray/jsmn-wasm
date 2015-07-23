@@ -25,7 +25,7 @@ WebGL is OpenGL for the web. It's open-source, royalty-free and cross-platform. 
 
 It's not for the faint of heart. 
 
-WebGL support can be looked at by going to [CanIUse](http://www.caniuse.com/webgl) or checking [browser support](http://get.webgl.com).
+WebGL support can be looked at by going to [CanIUse](http://www.caniuse.com/webgl) or checking [browser support](http://get.webgl.org).
 
 ### ASM.js and WebAssembly
 
@@ -37,7 +37,7 @@ Enscripten is an LLVM based tool that takes C or C++ code and turns it into the 
 
 WebAssembly is expected to be an optimized, agreed upon standards-based implementation of ASM.js
 
-Luke Wagner annouced WebAssembly on the mozilla blog and there is something up on [Github](http://www.github.com/WebAssembly). Basically, they want to deliver something that can be natively decoded and parsed and be done very quickly. 
+Luke Wagner annouced WebAssembly on the mozilla blog and there is something up on [Github](https://github.com/WebAssembly/design). Basically, they want to deliver something that can be natively decoded and parsed and be done very quickly. 
 
 If you compile asm.js "programs" into WebAssembly, the size can be reduced by about 60%. Most languages are going to be supported but for now it's only C/C++. JavaScript compilation to WebAssembly will also be supported at some point. 
 
