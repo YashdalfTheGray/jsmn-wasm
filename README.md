@@ -62,3 +62,10 @@ The community is impatient so polyfills are written and used. The issue becomes 
 Mobile detection is a mess because agent strings are insane. It's all about 'if it ain't broke, don't fix it' mentality. 
 
 Browser innovation is slow and JavaScript is being used for a lot more than what it was meant to do so developers just deal with it and come up with shims, code duct tape to layer over. At some point it becomes duct tape over duct tape. 
+
+## Compiling C into JavaScript
+
+1) Write something in C.
+2) Use emscripten to compile the C code into a web binary. Use `emcc file.c -o file.js` to create a node.js runnable JavaScript. Use `emcc file.c -o file.html` to create something that can be pulled up in a web browser. 
+
+Just like `"use strict"`, some browsers also support `"use asm"` if they support the speedier optimizations. This can be used to get to the more optimized JavaScript. 
