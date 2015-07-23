@@ -66,6 +66,6 @@ Browser innovation is slow and JavaScript is being used for a lot more than what
 ## Compiling C into JavaScript
 
 1. Write something in C.
-2. Use emscripten to compile the C code into a web binary. Use `emcc file.c -o file.js` to create a node.js runnable JavaScript. Use `emcc file.c -o file.html` to create something that can be pulled up in a web browser. 
+2. Use [emscripten](https://github.com/kripken/emscripten) to compile the C code into a web binary. Use `emcc file.c -o file.js` to create a node.js runnable JavaScript. Use `emcc file.c -o file.html` to create something that can be pulled up in a web browser. 
 
 Just like `"use strict"`, some browsers also support `"use asm"` if they support the speedier optimizations. This can be used to get to the more optimized JavaScript. 
