@@ -39,6 +39,10 @@ WebAssembly is expected to be an optimized, agreed upon standards-based implemen
 
 Luke Wagner annouced WebAssembly on the mozilla blog and there is something up on [Github](github.com/WebAssembly). Basically, they want to deliver something that can be natively decoded and parsed and be done very quickly. 
 
+If you compile asm.js "programs" into WebAssembly, the size can be reduced by about 60%. Most languages are going to be supported but for now it's only C/C++. JavaScript compilation to WebAssembly will also be supported at some point. 
+
+WebAssembly is not supposed to replace JavaScript, it is designed to complement JavaScript. It will use compiled C++ apps (binary executables) and use Javascript as the glue. 
+
 
 
 
