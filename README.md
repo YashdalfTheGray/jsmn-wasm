@@ -43,7 +43,15 @@ If you compile asm.js "programs" into WebAssembly, the size can be reduced by ab
 
 WebAssembly is not supposed to replace JavaScript, it is designed to complement JavaScript. It will use compiled C++ apps (binary executables) and use Javascript as the glue. 
 
+Brenden Eich, on his [website](brendeneich.com), has a video about ECMAScript Harmony and the rise of compilers. He talks about the ES versions and the cadence of releases. People are also using transpilers and compilers to get support for newer standards.
 
+Check out DeadTrigger2 on Unity3D. It features MACHINE GUN CHICKEN SENTRIES!
+
+## Innovation vs. Impatience
+
+Courtesy of @codepo8
+
+The deck talks mainly about JavaScript including the limitations of the language and the platform. 
 
 
 
