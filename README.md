@@ -1,4 +1,4 @@
-# JavaScript MN - Web Assembly
+# JavaScript MN - Web Assembly July 22, 2015
 
 ## DigitalCamp.us
 
@@ -33,7 +33,7 @@ ASM is not garbage collected or interpretted. It should be used for something th
 
 You can write code in any language if there is a transpiler that can take it down to highly optimized javscript. 
 
-Enscripten is an LLVM based tool that takes C or C++ code and turns it into the javascript code mentioned above. Then this code can be run using asm.js which is a polyfill that can be pulled in. 
+Enscripten is an LLVM based tool that takes C or C++ code and turns it into the JavaScript code mentioned above. Then this code can be run using asm.js which is a polyfill that can be pulled in. 
 
 WebAssembly is expected to be an optimized, agreed upon standards-based implementation of ASM.js
 
@@ -41,7 +41,7 @@ Luke Wagner annouced WebAssembly on the mozilla blog and there is something up o
 
 If you compile asm.js "programs" into WebAssembly, the size can be reduced by about 60%. Most languages are going to be supported but for now it's only C/C++. JavaScript compilation to WebAssembly will also be supported at some point. 
 
-WebAssembly is not supposed to replace JavaScript, it is designed to complement JavaScript. It will use compiled C++ apps (binary executables) and use Javascript as the glue. 
+WebAssembly is not supposed to replace JavaScript, it is designed to complement JavaScript. It will use compiled C++ apps (binary executables) and use JavaScript as the glue. 
 
 Brenden Eich, on his [website](brendeneich.com), has a video about ECMAScript Harmony and the rise of compilers. He talks about the ES versions and the cadence of releases. People are also using transpilers and compilers to get support for newer standards.
 
@@ -49,12 +49,16 @@ Check out DeadTrigger2 on Unity3D. It features MACHINE GUN CHICKEN SENTRIES!
 
 ## Innovation vs. Impatience
 
-Courtesy of @codepo8
+Slide deck courtesy of @codepo8
 
-The deck talks mainly about JavaScript including the limitations of the language and the platform. 
+The deck talks mainly about JavaScript including the limitations of the language and the platform. JavaScript is not foolproof yet, people use it but not everyone can or wants to. 
 
+"The web is not defined by technological availability."
 
+Ultimately, JavaScript is not the greatest solution for the web. HTML and CSS are fault-tolerant, JavaScript is not. 
 
+The community is impatient so polyfills are written and used. The issue becomes when no one pulls out the polyfills. This leads to people being dependant on (and only knowing about) polyfills and transpilers. 
 
+Mobile detection is a mess because agent strings are insane. It's all about 'if it ain't broke, don't fix it' mentality. 
 
-
+Browser innovation is slow and JavaScript is being used for a lot more than what it was meant to do so developers just deal with it and come up with shims, code duct tape to layer over. At some point it becomes duct tape over duct tape. 
